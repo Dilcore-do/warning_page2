@@ -58,22 +58,32 @@ button{
 button:hover{
     background:#4b5563;
 }
+.logo{
+    width:100px;
+    height:auto;
+    margin-bottom:15px;
+}
 @media (max-width:400px){
     .box{
         padding:20px;
+    }
+    .logo{
+        width:80px;
     }
 }
 </style>
 </head>
 <body>
 <div class="box">
+<img src="logo.png" alt="Логотип Прокуратуры Казахстана" class="logo">
 <h1>⚠️ Вы перешли по подозрительной ссылке</h1>
 <p>Это демонстрация.</p>
 <p>Если бы ссылка действительно принадлежала мошенникам, вы могли бы потерять свои данные.</p>
-<p><b>Прокуратура города Семей предупреждает о необходимости проверки адреса сайта перед тем, как переходить по ссылке.</b></p>
+<p><b><span style="color:#ff4444;">Прокуратура</span> города Семей <span style="color:#ff4444;">предупреждает</span> необходимости проверки адреса сайта перед тем, как переходить по ссылке.</b></p>
 <button onclick="location.href='https://google.com'">
 Понятно
 </button>
 </div>
 </body>
+</html>
 </html>
