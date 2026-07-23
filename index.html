@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNEFSE2Q6F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WNEFSE2Q6F');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Проверка внимательности</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+    padding:20px;
+    box-sizing:border-box;
+}
+.box{
+    max-width:600px;
+    width:100%;
+    background:#1f2937;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-sizing:border-box;
+}
+h1{
+    color:#ff4444;
+    font-size:clamp(20px, 5vw, 28px);
+    margin-top:0;
+}
+p{
+    font-size:clamp(15px, 4vw, 17px);
+    line-height:1.5;
+}
+button{
+    padding:14px 28px;
+    font-size:clamp(16px, 4vw, 18px);
+    width:100%;
+    max-width:250px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#374151;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    background:#4b5563;
+}
+@media (max-width:400px){
+    .box{
+        padding:20px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>⚠️ Вы перешли по подозрительной ссылке</h1>
+<p>Это демонстрация.</p>
+<p>Если бы ссылка действительно принадлежала мошенникам, вы могли бы потерять свои данные.</p>
+<p><b>Прокуратура города Семей предупреждает о необходимости проверки адреса сайта перед тем, как переходить по ссылке.</b></p>
+<button onclick="location.href='https://google.com'">
+Понятно
+</button>
+</div>
+</body>
+</html>
